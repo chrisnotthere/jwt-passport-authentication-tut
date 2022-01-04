@@ -1,0 +1,32 @@
+{
+  "name": "jwt-passport-authentication-tut",
+  "version": "1.0.0",
+  "description": "A tutorial on JSON Web Token authentication using Passport middleware on Node/Express.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisnotthere/jwt-passport-authentication-tut.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisnotthere/jwt-passport-authentication-tut/issues"
+  },
+  "homepage": "https://github.com/chrisnotthere/jwt-passport-authentication-tut#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
